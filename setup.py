@@ -5,7 +5,7 @@ version = '0.1'
 
 setup(name='collective.youtube_rst',
       version=version,
-      description="Youtube in rst in Plone",
+      description="Youtube in ReStructuredText in Plone",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -14,10 +14,10 @@ setup(name='collective.youtube_rst',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='plone rst youtube',
+      author='Guido Stevens',
+      author_email='guido.stevens@cosent.net',
+      url='http://www.github.com/collective/collective.youtube_rst',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],
