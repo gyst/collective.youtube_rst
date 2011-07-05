@@ -7,7 +7,7 @@ setup(name='collective.youtube_rst',
       version=version,
       description="Youtube in ReStructuredText in Plone",
       long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
